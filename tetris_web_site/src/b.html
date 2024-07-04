@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dropdown_main {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+}
+
+.dropdown_bar {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dropdown_bar svg {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.dropdown_content {
+    position: absolute;
+    display: none;
+    margin-top: 5px;
+    width: 157px;
+    background: linear-gradient(to bottom, #4a66ff, #b636cd);
+    border-radius: 5%;
+    box-shadow: 4px 4px 10px #c5b0b0;
+    animation: fade-in 1s ease;
+}
+
+.dropdown_content a {
+    text-align: left;
+    color: #ffffff;
+    padding: 0.5rem;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.drop_icon2 {
+    display: none;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+    </style>
+    <script>
+        var dropdown = document.querySelector(".dropdown_bar");
+var dropdownContent = document.querySelector(".dropdown_content");
+var drop_icon1 = document.querySelector(".drop_icon1");
+var drop_icon2 = document.querySelector(".drop_icon2");
+
+dropdown.addEventListener("click", function() {
+  if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+      drop_icon1.style.display = "inline-flex";
+      drop_icon2.style.display = "none";
+  } else {
+      dropdownContent.style.display = "block";
+      drop_icon1.style.display = "none";
+      drop_icon2.style.display = "inline-flex";
+  }
+});
+    </script>
+</head>
+<body>
+    <div class="header">       
+        <span class="logo m_logo">
+            <a href="a.html"><img src="img/스크린샷 2024-07-01 010651.png" alt="" href></a> 
+        </span>
+        <div class="menu">
+            <ul>
+                <li><a href="a.html">Loby</a></li>
+                <li><a href="">개요</a></li>
+                <li>
+                    <span>lv.1</span>
+                    <ul class="sub">
+                        <li><a href="">테트리스란?</a></li>
+                        <li><a href="">기초 지식</a></li>
+                        <li><a href="">지형 정리</a></li>
+                    </ul>
+                </li>  
+        
+                <li>
+                    <span>lv.2</span>
+                    <ul class="sub">
+                        <li><a href="">미노 스핀</a></li>
+                        <li><a href="">T스핀 기초</a></li>
+                        <li><a href="">개막 빌드</a></li>
+                    </ul>
+                </li>
+                        
+                <li>
+                    <span>lv.3</span>
+                    <ul class="sub">
+                        <li><a href="">중반 빌드</a></li>
+                        <li><a href="">퍼팩트 클리어</a></li>
+                        <li><a href="">피네스</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+  
+    </div>
+</body>
+</html>
