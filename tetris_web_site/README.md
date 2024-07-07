@@ -2,6 +2,8 @@
 
 + 테트리스 공략을 알려주는 웹 사이트를 만들어 보았습니다.
 
+  
+
 
 ## 주요 코드
 ![메인_에니메이션_코드](https://github.com/tlavksdmlskf/web/blob/main/tetris_web_site/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-07-05%20090907.png)
