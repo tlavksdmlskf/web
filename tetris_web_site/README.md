@@ -4,10 +4,12 @@
 
 # 완성본
 
-![전체_페이지_이미지](https://github.com/tlavksdmlskf/web/blob/main/tetris_web_site/%EC%A0%84%EC%B2%B4_%ED%8E%98%EC%9D%B4%EC%A7%80.gif)
+![image](https://github.com/user-attachments/assets/976db8c0-7767-4105-bb48-19652288cdd4)
+
 
 ## 주요 코드
-![메인_에니메이션_코드](https://github.com/tlavksdmlskf/web/blob/main/tetris_web_site/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-07-05%20090907.png)
+![image](https://github.com/user-attachments/assets/d812ddb4-7698-4cdc-b466-52587d520947)
+
 
 ![메인_에니메이션_CSS코드](https://github.com/tlavksdmlskf/web/blob/main/tetris_web_site/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-07-05%20101742.jpg)
 
