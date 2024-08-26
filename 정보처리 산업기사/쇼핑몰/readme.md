@@ -10,6 +10,10 @@
 
 
 ## 주요코드
+![image](https://github.com/user-attachments/assets/ad69a05a-16bd-46cd-badb-ca77bb9f9543)
++ 전체적인 사이트 틀
++ 사이트에서 중복인 부분은 jsp:include 로 넣어준다.
+---
 ![image](https://github.com/user-attachments/assets/598db99c-1802-48b6-9896-6dcb1e96431f)   
 ![image](https://github.com/user-attachments/assets/66fe5e44-fb6a-4657-bb46-a7c1dc88e602)
 
