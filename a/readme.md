@@ -10,7 +10,8 @@
 ![image](https://github.com/user-attachments/assets/598db99c-1802-48b6-9896-6dcb1e96431f)   
 ![image](https://github.com/user-attachments/assets/66fe5e44-fb6a-4657-bb46-a7c1dc88e602)
 
-+ 함수를 만들어서 입력창에 입력값이 없으면 입력되지 않은 창
++ 함수를 만들어서 입력창에 입력값이 없으면 입력되지 않은 창으로 이동시켜 준다.
++ 입력이 전부 되었으면 폼을 join_p.jsp로 전송한다.
 
 
 ![image](https://github.com/user-attachments/assets/2e38ee38-e26f-473d-bf0a-2e50eebbc98e)
