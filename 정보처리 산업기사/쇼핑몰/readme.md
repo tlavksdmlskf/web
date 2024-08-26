@@ -12,6 +12,7 @@
 
 
 
+
 ## 주요코드
 ![image](https://github.com/user-attachments/assets/ad69a05a-16bd-46cd-badb-ca77bb9f9543)
 + 전체적인 사이트 틀
