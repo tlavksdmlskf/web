@@ -16,7 +16,6 @@
 
 
 ---
-![image](https://github.com/user-attachments/assets/8ae72f19-8114-4299-84ab-5f1fdd4799b5)
 ![image](https://github.com/user-attachments/assets/4f856b72-8e7b-47b9-8253-50abcd6e11cd)
 ![image](https://github.com/user-attachments/assets/2e38ee38-e26f-473d-bf0a-2e50eebbc98e)
 
@@ -28,5 +27,7 @@
 ---
 ![image](https://github.com/user-attachments/assets/f7464ebb-d363-4492-8dcd-8b9d7e15402f)
 
-
++ 입력받은 값을 DB에 저장하는 코드
++ 한글로 전송하기 위해 인코딩을 UTF-8로 바꿔준다.
++ 
 ---
