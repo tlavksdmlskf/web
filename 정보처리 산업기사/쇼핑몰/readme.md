@@ -6,7 +6,7 @@
 ### 메인 페이지
 ![image](https://github.com/user-attachments/assets/5b2c830c-40aa-457c-b741-773e150033cf)
 ### 회원등록 페이지
-![image](https://github.com/user-attachments/assets/d321c947-d6d3-429e-8252-0bf444f184b6)
+![image](https://github.com/user-attachments/assets/7714577e-34e9-49c0-8eab-df8e07a6001b)
 ### DB에 들어간 모습
 ![image](https://github.com/user-attachments/assets/253f39e7-bc82-473d-94db-04e93fa2920c)
 
