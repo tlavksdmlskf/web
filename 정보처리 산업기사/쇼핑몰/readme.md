@@ -14,7 +14,6 @@
 + 전체적인 사이트 틀
 + 사이트에서 중복인 부분은 jsp:include 로 넣어준다.
 ---
-<details><summary>join.jsp</summary>
 ![image](https://github.com/user-attachments/assets/598db99c-1802-48b6-9896-6dcb1e96431f)   
 ![image](https://github.com/user-attachments/assets/66fe5e44-fb6a-4657-bb46-a7c1dc88e602)
 
@@ -31,7 +30,6 @@
 + 회원가입을 하려는 사람의 회원번호를 정해주는 코드
 + DB에서 현재 존재하는 회원번호 + 1을 변수에 저장한 뒤, 회원번호 창에 출력한다.
 + 회원번호 창은 readonly로 읽을 수만 있게 만들어준다.
-</details>
 ---
 ![image](https://github.com/user-attachments/assets/f7464ebb-d363-4492-8dcd-8b9d7e15402f)
 
