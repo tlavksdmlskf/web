@@ -1,7 +1,7 @@
 # 쇼핑몰 회원관리 페이지
 
 
-## 완성?본
+## 완성본
 
 ### 메인 페이지
 ![image](https://github.com/user-attachments/assets/5b2c830c-40aa-457c-b741-773e150033cf)
