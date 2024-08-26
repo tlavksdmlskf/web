@@ -13,7 +13,7 @@
 + 함수를 만들어서 입력창에 입력값이 없으면 입력되지 않은 창으로 이동시켜 준다.
 + 입력이 전부 되었으면 폼을 join_p.jsp로 전송한다.
 
-
+![image](https://github.com/user-attachments/assets/4f856b72-8e7b-47b9-8253-50abcd6e11cd)
 ![image](https://github.com/user-attachments/assets/2e38ee38-e26f-473d-bf0a-2e50eebbc98e)
-
++ 
 
