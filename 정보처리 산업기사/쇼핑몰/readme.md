@@ -9,11 +9,14 @@
 ![image](https://github.com/user-attachments/assets/7714577e-34e9-49c0-8eab-df8e07a6001b)
 ### DB에 들어간 모습
 ![image](https://github.com/user-attachments/assets/253f39e7-bc82-473d-94db-04e93fa2920c)
+### 회원 매출 조회
+![image](https://github.com/user-attachments/assets/7c811864-d3d2-4fe8-a4ed-c6ca9cc637fb)
 
 
 
 
-## 주요코드
+
+# 주요코드
 ![image](https://github.com/user-attachments/assets/ad69a05a-16bd-46cd-badb-ca77bb9f9543)
 + 전체적인 사이트 틀
 + 사이트에서 중복인 부분은 jsp:include 로 넣어준다.
@@ -41,3 +44,25 @@
 + 한글로 전송하기 위해 인코딩을 UTF-8로 바꿔준다.
 
 ---
+## sales_list.jsp
+![image](https://github.com/user-attachments/assets/af76f90c-3345-4605-be88-679077b509e4)
+
++ 매출이 있는 회원 각각의 매출을 보여주는 코드
++ 총액을 구하기 위해서 변수를 선언했음
+
+
+![image](https://github.com/user-attachments/assets/85ae6c50-8d8e-4655-b76b-86aa47a57718)
+  
++ 회원의 정보와 매출, 총액을 출력해주는 코드
++ 아까 선언해준 변수에 매출을 더해주는 방식으로 총액을 구해준다
+
+
+
+
+
+
+
+
+
+
+
