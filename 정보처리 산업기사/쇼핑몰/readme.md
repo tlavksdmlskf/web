@@ -48,7 +48,7 @@
 ![image](https://github.com/user-attachments/assets/af76f90c-3345-4605-be88-679077b509e4)
 
 + 매출이 있는 회원 각각의 매출을 보여주는 코드
-+ 총액을 구하기 위해서 변수를 선언했음
++ 총액을 구하기 위해서 변수를 선언한다
 
 
 ![image](https://github.com/user-attachments/assets/85ae6c50-8d8e-4655-b76b-86aa47a57718)
