@@ -62,6 +62,8 @@
 
 + 회원의 정보를 가져오는 코드
 + Case문을 활용하여 회원의 등급을 표시하였다
+
+
 ![image](https://github.com/user-attachments/assets/8e609925-44e5-483d-9313-2c6ecfb2eff1)
 + 회원의 정보를 출력하는 코드
 + while문, rs.next()를 사용하여 rs에 들어있는 값이 없을 때 까지 출력하게 한다
