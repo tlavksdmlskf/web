@@ -86,6 +86,8 @@
 ![image](https://github.com/user-attachments/assets/403a4d2f-976e-4bdb-88c9-60f91e4d0bd9)
 
 + 회원번호 입력 창에 값이 존재하지 않을 시 입력 창으로 이동시켜 주는 함수
+
+
 ![image](https://github.com/user-attachments/assets/92494179-a6f0-4e0b-a90c-d4676b8abd93)
 + 입력받은 값을 member_search_list.jsp로 전송한다
 
