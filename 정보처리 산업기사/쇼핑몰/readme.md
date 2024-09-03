@@ -50,13 +50,30 @@
 
 + join.jsp에서 입력받은 값을 DB에 전달하는 코드
 + 한글로 전송하기 위해 인코딩을 UTF-8로 바꿔준다.
++ 그 후 member_list.jsp로 이동시켜 준다
+---
+## DBConnect.java
+![image](https://github.com/user-attachments/assets/32c26442-9e5b-4535-bfb4-4c720278ddf2)
++ SQL을 연결시켜주는 코드
+
+---
+## member_list.jsp
+![image](https://github.com/user-attachments/assets/5bfa249f-ac4c-40e9-b411-11a2313059a9)
+
++ 회원의 정보를 가져오는 코드
++ Case문을 활용하여 회원의 등급을 표시하였다
+![image](https://github.com/user-attachments/assets/8e609925-44e5-483d-9313-2c6ecfb2eff1)
++ 회원의 정보를 출력하는 코드
++ while문, rs.next()를 사용하여 rs에 들어있는 값이 없을 때 까지 출력하게 한다
 
 ---
 ## sales_list.jsp
 ![image](https://github.com/user-attachments/assets/af76f90c-3345-4605-be88-679077b509e4)
 
 + 매출이 있는 회원 각각의 매출을 보여주는 코드
-+ 총액을 구하기 위해서 변수를 선언한다
++ Case문을 활용하여 회원의 등급을 표시하였다
++ member_tbl_02 테이블과 money_tbl_02 테이블을 조인하여 매출을 가져왔다
++ 총액을 구하기 위해서 변수를 선언했다
 
 
 ![image](https://github.com/user-attachments/assets/85ae6c50-8d8e-4655-b76b-86aa47a57718)
@@ -70,7 +87,17 @@
 
 + 회원번호 입력 창에 값이 존재하지 않을 시 입력 창으로 이동시켜 주는 함수
 ![image](https://github.com/user-attachments/assets/92494179-a6f0-4e0b-a90c-d4676b8abd93)
-+ 
++ 입력받은 값을 member_search_list.jsp로 전송한다
+
+---
+## member_search_list.jsp
+![image](https://github.com/user-attachments/assets/3fd53140-2713-482b-a622-1a9ba48908f6)
++ 사용자가 조회하려는 회원 정보를 조회한다
+
+![image](https://github.com/user-attachments/assets/75761a88-3143-4db9-99f7-397d0c60eea7)
++ if문, rs.next()를 사용하여 rs.next의 값이 True일 경우 (조회한 정보가 존재할 경우) 조회한 값 출력
++ False일 경우 (조회한 정보가 존재하지 않을 경우) 해당 회원이 존재하지 않다고 출력
+
 
 
 
