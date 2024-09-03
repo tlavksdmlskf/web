@@ -11,7 +11,12 @@
 ![image](https://github.com/user-attachments/assets/253f39e7-bc82-473d-94db-04e93fa2920c)
 ### 회원 매출 조회
 ![image](https://github.com/user-attachments/assets/7c811864-d3d2-4fe8-a4ed-c6ca9cc637fb)
-
+### 회원 정보 조회 (회원번호가 일치할 경우)
+![image](https://github.com/user-attachments/assets/25396fa1-772a-41c1-b59f-700965d6fea7)
+![image](https://github.com/user-attachments/assets/1f2a7ea0-2239-4f31-acbd-68e4b3cd4edd)
+### (회원번호가 일치하지 않을 경우)
+![image](https://github.com/user-attachments/assets/ad65994a-d82d-4bd2-a8c9-94c94f1d2b51)
+![image](https://github.com/user-attachments/assets/c4ec843b-becb-49ae-903c-dff7aa9fc1cf)
 
 
 
