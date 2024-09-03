@@ -7,6 +7,8 @@
 ![image](https://github.com/user-attachments/assets/5b2c830c-40aa-457c-b741-773e150033cf)
 ### 회원등록 페이지
 ![image](https://github.com/user-attachments/assets/7714577e-34e9-49c0-8eab-df8e07a6001b)
+### 유효성 검사
+![image](https://github.com/user-attachments/assets/e4d833c7-8a7c-438d-a441-ee8585109341)
 ### DB에 들어간 모습
 ![image](https://github.com/user-attachments/assets/253f39e7-bc82-473d-94db-04e93fa2920c)
 ### 회원 매출 조회
@@ -61,10 +63,13 @@
 + 회원의 정보와 매출, 총액을 출력해주는 코드
 + 아까 선언해준 변수에 매출을 더해주는 방식으로 총액을 구해준다
 
+---
+## member_search.jsp
+![image](https://github.com/user-attachments/assets/403a4d2f-976e-4bdb-88c9-60f91e4d0bd9)
 
-
-
-
++ 회원번호 입력 창에 값이 존재하지 않을 시 입력 창으로 이동시켜 주는 함수
+![image](https://github.com/user-attachments/assets/92494179-a6f0-4e0b-a90c-d4676b8abd93)
++ 
 
 
 
