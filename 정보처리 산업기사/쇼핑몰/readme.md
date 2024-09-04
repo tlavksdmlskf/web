@@ -2,7 +2,7 @@
 
 
 
-<details><summary> ## 완성본 </summary>
+<details><summary><H2>완성본</H2></summary>
 <H3>메인 페이지</H3>
 <img src="[https://via.placeholder.com/150](https://github.com/user-attachments/assets/5b2c830c-40aa-457c-b741-773e150033cf)" alt="메인 페이지 이미지">
 ### 회원등록 페이지
