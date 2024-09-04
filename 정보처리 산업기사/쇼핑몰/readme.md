@@ -91,13 +91,13 @@
  <li>member_tbl_02 테이블과 money_tbl_02 테이블을 조인하여 매출을 가져왔다</li> 
  <li>총액을 구하기 위해서 변수를 선언했다</li>
 </ul>
-
+</details>
 <img src="https://github.com/user-attachments/assets/85ae6c50-8d8e-4655-b76b-86aa47a57718" alt="유효성 검사 이미지">
   <ul>
  <li>회원의 정보와 매출, 총액을 출력해주는 코드</li> 
  <li>아까 선언해준 변수에 매출을 더해주는 방식으로 총액을 구해준다</li>
 </ul>
-
+</details>
 <hr>
 <details><summary><H2>member_search.jsp</summary>
 <img src="https://github.com/user-attachments/assets/403a4d2f-976e-4bdb-88c9-60f91e4d0bd9" alt="유효성 검사 이미지">
@@ -109,7 +109,7 @@
 <ul>
  <li>입력받은 값을 member_search_list.jsp로 전송한다</li>
 </ul>
-
+</details>
 <hr>
 <details><summary><H2>member_search_list.jsp</summary>
 <img src="https://github.com/user-attachments/assets/3fd53140-2713-482b-a622-1a9ba48908f6" alt="유효성 검사 이미지">
@@ -123,7 +123,7 @@
  <li>if문, rs.next()를 사용하여 rs.next의 값이 True일 경우 (조회한 정보가 존재할 경우) 조회한 값 출력</li> 
  <li>False일 경우 (조회한 정보가 존재하지 않을 경우) 해당 회원이 존재하지 않다고 출력</li>
 </ul>
-
+</details>
 
 
 
