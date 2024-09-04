@@ -65,7 +65,7 @@
 <hr>
 <details><summary><H2>DBConnect.java</H2></summary>
 <img src="https://github.com/user-attachments/assets/32c26442-9e5b-4535-bfb4-4c720278ddf2" alt="유효성 검사 이미지">
-+ SQL을 연결시켜주는 코드
++ SQL을 연결시켜주기 위해 필요한 코드
 </details>
 <hr>
 <details><summary><H2>member_list.jsp</H2></summary>
