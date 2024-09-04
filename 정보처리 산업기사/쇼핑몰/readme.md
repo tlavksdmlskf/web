@@ -1,8 +1,8 @@
 # 쇼핑몰 회원관리 페이지
 
 
-## 완성본
 
+<details><summary> ## 완성본 </summary>
 ### 메인 페이지
 ![image](https://github.com/user-attachments/assets/5b2c830c-40aa-457c-b741-773e150033cf)
 ### 회원등록 페이지
@@ -20,6 +20,8 @@
 ![image](https://github.com/user-attachments/assets/ad65994a-d82d-4bd2-a8c9-94c94f1d2b51)
 ![image](https://github.com/user-attachments/assets/c4ec843b-becb-49ae-903c-dff7aa9fc1cf)
 
+
+</details>
 
 
 
