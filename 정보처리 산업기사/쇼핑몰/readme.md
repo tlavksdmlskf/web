@@ -6,7 +6,7 @@
 <H3>메인 페이지</H3>
 <img src="(https://github.com/user-attachments/assets/5b2c830c-40aa-457c-b741-773e150033cf)" alt="메인 페이지 이미지">
 <H3>회원등록 페이지</H3>
-![image](https://github.com/user-attachments/assets/7714577e-34e9-49c0-8eab-df8e07a6001b)
+<img src="https://github.com/user-attachments/assets/7714577e-34e9-49c0-8eab-df8e07a6001b" alt="회원등록 페이지 이미지">
 <H3>유효성 검사</H3>### 
 ![image](https://github.com/user-attachments/assets/e4d833c7-8a7c-438d-a441-ee8585109341)
 <H3>DB에 들어간 모습</H3>### 
