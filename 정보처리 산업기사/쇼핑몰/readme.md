@@ -91,7 +91,7 @@
  <li>member_tbl_02 테이블과 money_tbl_02 테이블을 조인하여 매출을 가져왔다</li> 
  <li>총액을 구하기 위해서 변수를 선언했다</li>
 </ul>
-</details>
+
 <img src="https://github.com/user-attachments/assets/85ae6c50-8d8e-4655-b76b-86aa47a57718" alt="유효성 검사 이미지">
   <ul>
  <li>회원의 정보와 매출, 총액을 출력해주는 코드</li> 
