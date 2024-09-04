@@ -26,8 +26,10 @@
 # 주요코드
 <details><summary><H2>index.jsp</H2></summary>
 <img src="https://github.com/user-attachments/assets/ad69a05a-16bd-46cd-badb-ca77bb9f9543" alt="유효성 검사 이미지">
-+ 전체적인 사이트 틀
-+ 사이트에서 중복인 부분은 jsp:include 로 넣어준다.
+ <ul>
+    <li> 전체적인 사이트 틀</li>
+    <li> 사이트에서 중복인 부분은 jsp:include 로 넣어준다.</li>
+ </ul>
 </details>
 ---
 ## join.jsp
