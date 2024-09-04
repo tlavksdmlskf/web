@@ -2,38 +2,37 @@
 
 
 
-<details><summary><H2>완성본</H2></summary>
+<H2>완성본</H2>
 <H3>메인 페이지</H3>
 <img src="https://github.com/user-attachments/assets/5b2c830c-40aa-457c-b741-773e150033cf" alt="메인 페이지 이미지">
 <H3>회원등록 페이지</H3>
 <img src="https://github.com/user-attachments/assets/7714577e-34e9-49c0-8eab-df8e07a6001b" alt="회원등록 페이지 이미지">
 <H3>유효성 검사</H3>### 
-![image](https://github.com/user-attachments/assets/e4d833c7-8a7c-438d-a441-ee8585109341)
+<img src="https://github.com/user-attachments/assets/e4d833c7-8a7c-438d-a441-ee8585109341" alt="유효성 검사 이미지">
 <H3>DB에 들어간 모습</H3>### 
-![image](https://github.com/user-attachments/assets/253f39e7-bc82-473d-94db-04e93fa2920c)
+<img src="https://github.com/user-attachments/assets/253f39e7-bc82-473d-94db-04e93fa2920c" alt="유효성 검사 이미지">
 <H3>회원 매출 조회</H3>### 
-![image](https://github.com/user-attachments/assets/7c811864-d3d2-4fe8-a4ed-c6ca9cc637fb)
+<img src="https://github.com/user-attachments/assets/7c811864-d3d2-4fe8-a4ed-c6ca9cc637fb" alt="유효성 검사 이미지">
 <H3>회원 정보 조회(회원번호가 일치할 경우)</H3>###  
-![image](https://github.com/user-attachments/assets/25396fa1-772a-41c1-b59f-700965d6fea7)
-![image](https://github.com/user-attachments/assets/1f2a7ea0-2239-4f31-acbd-68e4b3cd4edd)
+<img src="https://github.com/user-attachments/assets/25396fa1-772a-41c1-b59f-700965d6fea7" alt="유효성 검사 이미지">
+<img src="https://github.com/user-attachments/assets/1f2a7ea0-2239-4f31-acbd-68e4b3cd4edd" alt="유효성 검사 이미지">
 <H3>(회원번호가 일치하지 않을 경우)</H3>### 
-![image](https://github.com/user-attachments/assets/ad65994a-d82d-4bd2-a8c9-94c94f1d2b51)
-![image](https://github.com/user-attachments/assets/c4ec843b-becb-49ae-903c-dff7aa9fc1cf)
+<img src="https://github.com/user-attachments/assets/ad65994a-d82d-4bd2-a8c9-94c94f1d2b51" alt="유효성 검사 이미지">
+<img src="https://github.com/user-attachments/assets/c4ec843b-becb-49ae-903c-dff7aa9fc1cf" alt="유효성 검사 이미지">
 
-
-</details>
 
 
 
 # 주요코드
-## index.jsp
-![image](https://github.com/user-attachments/assets/ad69a05a-16bd-46cd-badb-ca77bb9f9543)
+<details><summary><H2>index.jsp</H2></summary>
+<img src="https://github.com/user-attachments/assets/ad69a05a-16bd-46cd-badb-ca77bb9f9543" alt="유효성 검사 이미지">
 + 전체적인 사이트 틀
 + 사이트에서 중복인 부분은 jsp:include 로 넣어준다.
+</details>
 ---
 ## join.jsp
-![image](https://github.com/user-attachments/assets/598db99c-1802-48b6-9896-6dcb1e96431f)   
-![image](https://github.com/user-attachments/assets/66fe5e44-fb6a-4657-bb46-a7c1dc88e602)
+<img src="https://github.com/user-attachments/assets/598db99c-1802-48b6-9896-6dcb1e96431f" alt="유효성 검사 이미지">
+<img src="https://github.com/user-attachments/assets/66fe5e44-fb6a-4657-bb46-a7c1dc88e602" alt="유효성 검사 이미지">
 
 
 + 함수를 만들어서 입력창에 입력값이 없으면 입력되지 않은 창으로 이동시켜 준다.
