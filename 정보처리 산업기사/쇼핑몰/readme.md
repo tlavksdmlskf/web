@@ -3,8 +3,8 @@
 
 
 <details><summary> ## 완성본 </summary>
-### 메인 페이지
-![image](https://github.com/user-attachments/assets/5b2c830c-40aa-457c-b741-773e150033cf)
+<H3>메인 페이지</H3>
+<img src="[https://via.placeholder.com/150](https://github.com/user-attachments/assets/5b2c830c-40aa-457c-b741-773e150033cf)" alt="메인 페이지 이미지">
 ### 회원등록 페이지
 ![image](https://github.com/user-attachments/assets/7714577e-34e9-49c0-8eab-df8e07a6001b)
 ### 유효성 검사
