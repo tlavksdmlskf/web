@@ -3,18 +3,17 @@
 <%@ page import="DB.DBConnect" %>    
 <%@ page import="java.sql.*" %>    
 <% 
-	String sql = "select max(custno) from member_tbl_02"; // 쿼리문 형식의 문자열이 변수명sql에 저장
-	
-	Connection conn = DBConnect.getConnection(); // DB 연결 기능을 객체변수 conn에 저장 -> DB연결
-	PreparedStatement pstmt = conn.prepareStatement(sql);// sql변수에 저장되어있는 문장이 쿼리문이 됨
-	ResultSet rs = pstmt.executeQuery();// 변수 pstmt에 저장되어있는 SQL문을 실행하여 객체변수 rs에 저장
-	rs.next();//변수 rs에 결과값이 저장되는 경우 next()를 호출하여 마지막 값을 확인
-	int num = rs.getInt(1)+1; //num에 오라클 member 테이블의 마지막 회원번호 +1 값이 변수에 저장
+	String sql = "select max(custno) from member_tbl_02"; 
+	Connection conn = DBConnect.getConnection();
+	PreparedStatement pstmt = conn.prepareStatement(sql);
+	ResultSet rs = pstmt.executeQuery();
+	rs.next();
+	int num = rs.getInt(1)+1;
 %>
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css">	
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <script type="text/javascript">
@@ -51,13 +50,12 @@
 		}
 		alert("회원가입이 완료 되었습니다.")
 		return true;
-		
 	}
 </script>
 </head>
 <body>
 <header>
-		<jsp:include page="layout/header.jsp"></jsp:include>
+	<jsp:include page="layout/header.jsp"></jsp:include>
 	</header>
 	<nav>
 		<jsp:include page="layout/nav.jsp"></jsp:include>
@@ -97,12 +95,15 @@
 				<tr class="center">
 					<td colspan="2">
 						<input type="submit" value="등록">
-						<input type="button" value="취소" onclick="location.href=join.jsp">
+						<input type="button" value="취소" onclick="location.href='join.jsp'">
 						<input type="button" value="조회">
 					</td>
 				</tr>
 			</table>
 		</form>
 	</section>
+	<footer>
+		<jsp:include page="layout/footer.jsp"></jsp:include>
+	</footer>
 </body>
 </html>
