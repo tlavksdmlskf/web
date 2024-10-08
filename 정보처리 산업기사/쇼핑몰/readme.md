@@ -1,4 +1,4 @@
-# 쇼핑몰 회원관리 페이지
+![image](https://github.com/user-attachments/assets/d9b740b4-e840-4de6-842a-c29263986c7b)# 쇼핑몰 회원관리 페이지
 <ul>
  <li>쇼핑몰 회원에 관한 정보를 추가, 제거, 수정 등 관리할 수 있는 웹사이트</li>
 </ul>
@@ -95,6 +95,7 @@
  <li>Case문을 활용하여 회원의 등급을 표시하였다</li>
  <li>member_tbl_02 테이블과 money_tbl_02 테이블을 조인하여 매출을 가져왔다</li> 
  <li>총액을 구하기 위해서 변수를 선언했다</li>
+ <li>click_custno를 통하여 클릭한 회원번호를 update.jsp에 전송해준다</li>
 </ul>
 
 <img src="https://github.com/user-attachments/assets/85ae6c50-8d8e-4655-b76b-86aa47a57718" alt="유효성 검사 이미지">
@@ -130,6 +131,15 @@
 </ul>
 </details>
 
+<details><summary><H2>update.jsp (회원 정보 수정 페이지)</H2></summary>
+<img src="https://github.com/user-attachments/assets/efae678c-f165-4119-a081-8cde583f0a45" alt="update.jsp 코드1">
+<img src="https://github.com/user-attachments/assets/84990a2c-ec88-4dec-bf03-27798ed3560c" alt="update.jsp 코드2">
+<img src="https://github.com/user-attachments/assets/c3c89d1e-ac35-4bd8-aa30-f32e466f67f4" alt="update.jsp 코드3">
+<ul>
+ <li>전송받은 회원번호의 정보를 조회한다</li>
+ <li>조회한 정보를 입력창에 표시한 뒤, 수정을 눌렀을 경우 update_p.jsp로 이동시킨다</li>
+ <li>삭제를 눌렀을 경우, 현재 회원번호를 delete.jsp로 전송 및 이동한다</li>
+</ul>
 
 
 
