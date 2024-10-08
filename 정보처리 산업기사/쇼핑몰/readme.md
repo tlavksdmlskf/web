@@ -116,7 +116,6 @@
  <li>입력받은 값을 member_search_list.jsp로 전송한다</li>
 </ul>
 </details>
-<hr>
 <details><summary><H2>member_search_list.jsp (회원 정보 조회 페이지)</summary>
 <img src="https://github.com/user-attachments/assets/3fd53140-2713-482b-a622-1a9ba48908f6" alt="유효성 검사 이미지">
 
