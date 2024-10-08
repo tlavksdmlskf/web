@@ -130,7 +130,7 @@
  <li>False일 경우 (조회한 정보가 존재하지 않을 경우) 해당 회원이 존재하지 않다고 출력</li>
 </ul>
 </details>
-
+<hr>
 <details><summary><H2>update.jsp (회원 정보 수정 페이지)</H2></summary>
 <img src="https://github.com/user-attachments/assets/efae678c-f165-4119-a081-8cde583f0a45" alt="update.jsp 코드1">
 <img src="https://github.com/user-attachments/assets/84990a2c-ec88-4dec-bf03-27798ed3560c" alt="update.jsp 코드2">
