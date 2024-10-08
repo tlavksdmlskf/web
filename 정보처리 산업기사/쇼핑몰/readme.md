@@ -73,7 +73,8 @@
 <hr>
 
 <details><summary><H2>member_list.jsp (회원 정보 페이지)</H2></summary>
-<img src="https://github.com/user-attachments/assets/5bfa249f-ac4c-40e9-b411-11a2313059a9" alt="유효성 검사 이미지">
+
+<img src="https://github.com/user-attachments/assets/6b3bd7ab-d66e-4d7c-8fef-72ca4964a5a0" alt="유효성 검사 이미지">
 <ul>
  <li>회원의 정보를 가져오는 코드</li> 
  <li>Case문을 활용하여 회원의 등급을 표시하였다</li>
