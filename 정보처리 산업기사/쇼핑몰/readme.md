@@ -148,7 +148,7 @@
  <li>그 후 회원 정보 페이지로 돌아간다</li>
 </ul>
  </details>
-<details><summary><H2> delete.jsp (회원 정보 삭제)</H2>
+<details><summary><H2> delete.jsp (회원 정보 삭제)</H2></summary>
 <img src="https://github.com/user-attachments/assets/6ec31cb6-582c-4cb9-b3e0-fb27656205aa" alt="delete.jsp 코드">
 <ul>
  <li>현재 회원 정보를 DB에서 삭제한다</li>
