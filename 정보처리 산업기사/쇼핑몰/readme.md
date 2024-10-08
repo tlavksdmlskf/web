@@ -14,7 +14,7 @@
 <H3>DB에 들어간 모습</H3>
 <img src="https://github.com/user-attachments/assets/253f39e7-bc82-473d-94db-04e93fa2920c" alt="DB에 들어간 모습 이미지">
 <H3>회원 정보 페이지</H3>
-<img src="https://github.com/user-attachments/assets/9b23bbb2-d660-44a9-bdad-1a6a68868a14" alt="유효성 검사 이미지">
+<img src="https://github.com/user-attachments/assets/01fb70fe-edc0-449f-834d-40dfd5769d76" alt="유효성 검사 이미지">
 <H3>회원 매출 조회</H3>
 <img src="https://github.com/user-attachments/assets/7c811864-d3d2-4fe8-a4ed-c6ca9cc637fb" alt="회원 매출 조회 이미지">
 <H3>회원 정보 조회(회원번호가 일치할 경우)</H3>
@@ -23,6 +23,7 @@
 <H3>(회원번호가 일치하지 않을 경우)</H3>
 <img src="https://github.com/user-attachments/assets/ad65994a-d82d-4bd2-a8c9-94c94f1d2b51" alt="유효성 검사 이미지">
 <img src="https://github.com/user-attachments/assets/c4ec843b-becb-49ae-903c-dff7aa9fc1cf" alt="유효성 검사 이미지">
+![image]()
 
 
 <hr>
