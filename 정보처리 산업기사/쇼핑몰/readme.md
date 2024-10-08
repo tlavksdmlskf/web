@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/d9b740b4-e840-4de6-842a-c29263986c7b)
 # 쇼핑몰 회원관리 페이지
 <ul>
  <li>쇼핑몰 회원에 관한 정보를 추가, 제거, 수정 등 관리할 수 있는 웹사이트</li>
@@ -141,19 +140,19 @@
  <li>조회한 정보를 입력창에 표시한 뒤, 수정을 눌렀을 경우 update_p.jsp로 이동시킨다</li>
  <li>삭제를 눌렀을 경우, 현재 회원번호를 delete.jsp로 전송 및 이동한다</li>
 </ul>
-
+</details>
 <details><summary><H2>update_p.jsp (회원 정보 수정 페이지)</H2></summary>
 <img src="https://github.com/user-attachments/assets/e3fbad7f-cdbc-4351-aa79-a3ddb00cdf95" alt="update_p.jsp 코드">
 <ul>
  <li>update 문을 통해서 DB에 현재 회원정보를 수정한다.</li>
  <li>그 후 회원 정보 페이지로 돌아간다</li>
 </ul>
-<summary><H2> delete.jsp (회원 정보 삭제)</H2>
+ </details>
+<details><summary><H2> delete.jsp (회원 정보 삭제)</H2>
 <img src="https://github.com/user-attachments/assets/6ec31cb6-582c-4cb9-b3e0-fb27656205aa" alt="delete.jsp 코드">
 <ul>
  <li>현재 회원 정보를 DB에서 삭제한다</li>
 </ul>
-
 </details>
 
 
