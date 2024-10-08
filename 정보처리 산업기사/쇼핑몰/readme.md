@@ -23,7 +23,8 @@
 <H3>(회원번호가 일치하지 않을 경우)</H3>
 <img src="https://github.com/user-attachments/assets/ad65994a-d82d-4bd2-a8c9-94c94f1d2b51" alt="유효성 검사 이미지">
 <img src="https://github.com/user-attachments/assets/c4ec843b-becb-49ae-903c-dff7aa9fc1cf" alt="유효성 검사 이미지">
-
+<H3>회원 정보 수정</H3>
+<img src="https://github.com/user-attachments/assets/16802bbe-e420-4997-b270-952e2ba1ef2e" alt="회원 정보 수정 이미지">
 
 
 <hr>
