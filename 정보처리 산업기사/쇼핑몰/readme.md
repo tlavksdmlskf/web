@@ -3,7 +3,6 @@
  <li>쇼핑몰 회원에 관한 정보를 추가, 제거, 수정 등 관리할 수 있는 웹사이트</li>
 </ul>
 <img src="https://github.com/user-attachments/assets/5b2c830c-40aa-457c-b741-773e150033cf" alt="메인 페이지 이미지">
-<hr>
 <details><summary><H2>완성본</H2></summary>
 <H3>메인 페이지</H3>
 <img src="https://github.com/user-attachments/assets/5b2c830c-40aa-457c-b741-773e150033cf" alt="메인 페이지 이미지">
