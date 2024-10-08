@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/d9b740b4-e840-4de6-842a-c29263986c7b)# 쇼핑몰 회원관리 페이지
+![image](https://github.com/user-attachments/assets/d9b740b4-e840-4de6-842a-c29263986c7b)
+# 쇼핑몰 회원관리 페이지
 <ul>
  <li>쇼핑몰 회원에 관한 정보를 추가, 제거, 수정 등 관리할 수 있는 웹사이트</li>
 </ul>
