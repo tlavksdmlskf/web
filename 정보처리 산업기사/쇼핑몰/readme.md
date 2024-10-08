@@ -58,7 +58,9 @@
 </details>
 <details><summary><H2>DBConnect.java (DB 연결)</H2></summary>
 <img src="https://github.com/user-attachments/assets/32c26442-9e5b-4535-bfb4-4c720278ddf2" alt="유효성 검사 이미지">
-+ DB을 연결시켜주기 위해 필요한 코드
+<ul>
+ <li>DB을 연결시켜주기 위해 필요한 코드</li>
+</ul>
 </details>
 
 <hr>
