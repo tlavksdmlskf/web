@@ -35,17 +35,6 @@
 
 </details>
 <hr>
-<details><summary><H2>vote_member.jsp (후보조회 페이지)</H2></summary>
-<img src="https://github.com/user-attachments/assets/c1138838-c9d5-4d4e-bf8c-057c2cfa9cba" alt="유효성 검사 이미지">
-<img src="https://github.com/user-attachments/assets/812966ed-881e-4649-9a91-b0440244eae2" alt="유효성 검사 이미지">
-<ul>
-    <li>후보자의 번호, 이름, 학력, 주민번호, 지역구, 대표전화를 보여주는 페이지.</li>
-    <li>학력은 case문으로 각각의 맞는 학력을 보여주고, 주민번호, 대표전화는 sub_str과 연결 연산자를 사용하여 문자를 자르고 연결하여 모든 후보가 나오도록 반복했다.</li>
-</ul>
-</details>
-
-
-<hr>
 <details><summary><H2>환자조회.jsp (환자조회 페이지)</H2></summary>
 <img src="https://github.com/user-attachments/assets/6044200d-8193-44ea-8893-ec5e5c46461d" alt="유효성 검사 이미지">
 <img src="https://github.com/user-attachments/assets/b6076fe1-6861-4567-99cb-2db7b974173c" alt="유효성 검사 이미지">
@@ -55,6 +44,7 @@
  <li>그 후 member_list.jsp로 이동시켜 준다.</li>
 </ul> 
 </details>
+<hr>
 <details><summary><H2>검사결과입력.jsp (검사결과입력 페이지)</H2></summary>
 <img src="https://github.com/user-attachments/assets/ff747af1-38ed-4794-8d8f-90285dae998a" alt="유효성 검사 이미지">
 <ul>
@@ -63,7 +53,7 @@
  <li>그 후 member_list.jsp로 이동시켜 준다.</li>
 </ul> 
 </details>
-<hr>
+
 
 <details><summary><H2>검사결과입력_p.jsp (검사결과입력 페이지)</H2></summary>
 <img src="https://github.com/user-attachments/assets/248a0a4b-77a7-42ad-aa56-29494557dba3" alt="유효성 검사 이미지">
@@ -85,14 +75,14 @@
  <li>총액을 구하기 위해서 변수를 선언했다</li>
  <li>click_custno를 통하여 클릭한 회원번호를 update.jsp에 전송해준다</li>
 </ul>
-
+<hr>
 <img src="https://github.com/user-attachments/assets/a2c4e09f-62c9-4766-a7b4-4ac06863537c" alt="유효성 검사 이미지">
   <ul>
  <li>회원의 정보와 매출, 총액을 출력해주는 코드</li> 
  <li>아까 선언해준 변수에 매출을 더해주는 방식으로 총액을 구해준다</li>
 </ul>
 </details>
-
+<hr>
 <details><summary><H2>지역별검사건수.jsp (지역별 검사건수 페이지)</H2></summary>
 <img src="https://github.com/user-attachments/assets/248a0a4b-77a7-42ad-aa56-29494557dba3" alt="유효성 검사 이미지">
 <img src="https://github.com/user-attachments/assets/9c9cf1bb-740f-46bc-829a-4f6279fe33b8" alt="유효성 검사 이미지">
