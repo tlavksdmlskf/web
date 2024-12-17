@@ -4,25 +4,17 @@
 </ul>
 <H3>메인 페이지</H3>
 <img src="https://github.com/user-attachments/assets/cf86431a-dcfa-4175-a75a-616e9b8e77a4" alt="메인 페이지 이미지">
-<details><summary><H2>완성본</H2></summary>
+<details><summary><H2>완성본 사진</H2></summary>
 <H3>후보조회 페이지</H3>
 <img src="https://github.com/user-attachments/assets/d076f429-1422-4e41-9f29-446af02fdc89" alt="회원등록 페이지 이미지">
 <H3>투표 페이지</H3>
 <img src="https://github.com/user-attachments/assets/eb2fe0ee-be56-4e9b-83e0-a50c51d39a0f" alt="유효성 검사 이미지">
-<H3></H3>
-<img src="https://github.com/user-attachments/assets/253f39e7-bc82-473d-94db-04e93fa2920c" alt="DB에 들어간 모습 이미지">
+<H3>유호성 검사</H3>
+<img src="https://github.com/user-attachments/assets/039aeb84-5566-473d-ab63-6dbf93053613" alt="유효성 검사 이미지">
 <H3>후보 검수 조회 페이지</H3>
 <img src="https://github.com/user-attachments/assets/c8bfbaef-e4c8-4440-a388-b122a776eb6b" alt="유효성 검사 이미지">
 <H3>후보자 등수 페이지</H3>
 <img src="https://github.com/user-attachments/assets/61800f57-1a0d-44c1-b12a-395f3bc4a51a" alt="회원 매출 조회 이미지">
-<H3>회원 정보 조회(회원번호가 일치할 경우)</H3>
-<img src="https://github.com/user-attachments/assets/25396fa1-772a-41c1-b59f-700965d6fea7" alt="유효성 검사 이미지">
-<img src="https://github.com/user-attachments/assets/1f2a7ea0-2239-4f31-acbd-68e4b3cd4edd" alt="유효성 검사 이미지">
-<H3>(회원번호가 일치하지 않을 경우)</H3>
-<img src="https://github.com/user-attachments/assets/ad65994a-d82d-4bd2-a8c9-94c94f1d2b51" alt="유효성 검사 이미지">
-<img src="https://github.com/user-attachments/assets/c4ec843b-becb-49ae-903c-dff7aa9fc1cf" alt="유효성 검사 이미지">
-<H3>회원 정보 수정</H3>
-<img src="https://github.com/user-attachments/assets/16802bbe-e420-4997-b270-952e2ba1ef2e" alt="회원 정보 수정 이미지">
 </details>
 
 <hr>
@@ -39,13 +31,14 @@
 
 <hr>
 
+![image](https://github.com/user-attachments/assets/c1138838-c9d5-4d4e-bf8c-057c2cfa9cba)
 
-<details><summary><H2>join.jsp (회원등록 페이지)</H2></summary>
-<img src="https://github.com/user-attachments/assets/598db99c-1802-48b6-9896-6dcb1e96431f" alt="유효성 검사 이미지">
-<img src="https://github.com/user-attachments/assets/66fe5e44-fb6a-4657-bb46-a7c1dc88e602" alt="유효성 검사 이미지">
+<details><summary><H2>vote_member.jsp (후보조회 페이지)</H2></summary>
+<img src="https://github.com/user-attachments/assets/c1138838-c9d5-4d4e-bf8c-057c2cfa9cba" alt="유효성 검사 이미지">
+<img src="https://github.com/user-attachments/assets/812966ed-881e-4649-9a91-b0440244eae2" alt="유효성 검사 이미지">
 <ul>
-    <li>함수를 만들어서 입력창에 입력값이 없으면 입력되지 않은 창으로 이동시켜 준다.</li>
-    <li>입력이 전부 되었으면 폼을 join_p.jsp로 전송한다.</li>
+    <li>후보자의 번호, 이름, 학력, 주민번호, 지역구, 대표전화를 보여주는 페이지.</li>
+    <li>학력은 case문으로 각각의 맞는 학력을 보여주고, 주민번호, 대표전화는 sub_str과 연결 연산자를 사용하여 문자를 자르고 연결하여 모든 후보가 나오도록 반복했다.</li>
 </ul>
 <img src="https://github.com/user-attachments/assets/4f856b72-8e7b-47b9-8253-50abcd6e11cd" alt="유효성 검사 이미지">
 <img src="https://github.com/user-attachments/assets/2e38ee38-e26f-473d-bf0a-2e50eebbc98e" alt="유효성 검사 이미지">
