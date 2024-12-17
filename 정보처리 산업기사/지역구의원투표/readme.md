@@ -27,10 +27,7 @@
     <li> 사이트에서 중복인 부분은 jsp:include 로 넣어준다.</li>
  </ul>
 </details>
-
-
 <hr>
-
 ![image](https://github.com/user-attachments/assets/c1138838-c9d5-4d4e-bf8c-057c2cfa9cba)
 
 <details><summary><H2>vote_member.jsp (후보조회 페이지)</H2></summary>
