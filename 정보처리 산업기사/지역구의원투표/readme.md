@@ -48,19 +48,20 @@
 <hr>
 <details><summary><H2>vote.jsp (투표 페이지)</H2></summary>
 <img src="https://github.com/user-attachments/assets/6044200d-8193-44ea-8893-ec5e5c46461d" alt="유효성 검사 이미지">
+<ul>
+ <li>입력창에 값이 없거나 기본값인 경우, 입력값이 없다고 알려준 후, 입력되지 않은 창으로 이동한다.</li> 
+</ul>
 <img src="https://github.com/user-attachments/assets/b6076fe1-6861-4567-99cb-2db7b974173c" alt="유효성 검사 이미지">
 <ul>
- <li>join.jsp에서 입력받은 값을 DB에 전달하는 코드</li> 
- <li>한글로 전송하기 위해 인코딩을 UTF-8로 바꿔준다.</li>
- <li>그 후 member_list.jsp로 이동시켜 준다.</li>
+ <li>select 태그와 option 태그로 드롭다운을 만들었다.</li>
+ <li>다시쓰기를 눌렀을 때, 입력창에 있는 값을 초기화되게 했다.</li>
 </ul> 
 </details>
 <details><summary><H2>vote_p.jsp (투표 페이지)</H2></summary>
 <img src="https://github.com/user-attachments/assets/ff747af1-38ed-4794-8d8f-90285dae998a" alt="유효성 검사 이미지">
-<ul>
- <li>join.jsp에서 입력받은 값을 DB에 전달하는 코드</li> 
+<ul> 
  <li>한글로 전송하기 위해 인코딩을 UTF-8로 바꿔준다.</li>
- <li>그 후 member_list.jsp로 이동시켜 준다.</li>
+ <li>투표 페이지에서 입력받은 값들을 데이터베이스에 저장한다.</li>
 </ul> 
 </details>
 <hr>
@@ -69,27 +70,19 @@
 <img src="https://github.com/user-attachments/assets/248a0a4b-77a7-42ad-aa56-29494557dba3" alt="유효성 검사 이미지">
 <img src="https://github.com/user-attachments/assets/9c9cf1bb-740f-46bc-829a-4f6279fe33b8" alt="유효성 검사 이미지">
 <ul>
- <li>회원의 정보를 가져오는 코드</li> 
- <li>Case문을 활용하여 회원의 등급을 표시하였다</li>
+ <li>투표장이 제1투표장인 성명, 생년월일, 나이, 성별, 후보번호, 투표시간, 유권자 확인을 보여주는 코드</li> 
+ <li>Case문, substr, to_date, 연결 연산자를 사용했고, 후보번호는 오름차순, 투표시간은 내림차순으로 정렬하였다.</li>
 </ul>
 
 </details>
 <hr>
 <details><summary><H2>vote_rank.jsp (후보자 등수 페이지)</summary>
 <img src="https://github.com/user-attachments/assets/c90debc6-e5bb-4269-8fc4-bae03103152f" alt="유효성 검사 이미지">
-
-<ul>
- <li> 매출이 있는 회원 각각의 매출을 보여주는 코드</li> 
- <li>Case문을 활용하여 회원의 등급을 표시하였다</li>
- <li>member_tbl_02 테이블과 money_tbl_02 테이블을 조인하여 매출을 가져왔다</li> 
- <li>총액을 구하기 위해서 변수를 선언했다</li>
- <li>click_custno를 통하여 클릭한 회원번호를 update.jsp에 전송해준다</li>
-</ul>
-
 <img src="https://github.com/user-attachments/assets/a2c4e09f-62c9-4766-a7b4-4ac06863537c" alt="유효성 검사 이미지">
-  <ul>
- <li>회원의 정보와 매출, 총액을 출력해주는 코드</li> 
- <li>아까 선언해준 변수에 매출을 더해주는 방식으로 총액을 구해준다</li>
+<ul>
+ <li>후보자의 등수를 보여주는 코드</li> 
+ <li>group by를 사용하여 후보 번호를 그룹으로 모은 후, count 함수를 사용하여 후보자의 총 투표 건수를 셌다.</li>
+ <li>총 투표 건수가 많은 순서대로 정렬하였다.</li> 
 </ul>
 </details>
 
