@@ -3,18 +3,18 @@
  <li>환자의 정보 조회, 검사 결과 입력, 검사 결과 조회, 지역별 검사 건수 조회를 할 수 있는 웹사이트</li>
 </ul>
 <H3>메인 페이지</H3>
-<img src="https://github.com/user-attachments/assets/cf86431a-dcfa-4175-a75a-616e9b8e77a4" alt="메인 페이지 이미지">
+<img src="https://github.com/user-attachments/assets/54f96296-02a7-403f-b87b-de0319eb7e05" alt="메인 페이지 이미지">
 <details><summary><H2>완성본 사진</H2></summary>
 <H3>환자조회 페이지</H3>
-<img src="https://github.com/user-attachments/assets/d076f429-1422-4e41-9f29-446af02fdc89" alt="회원등록 페이지 이미지">
+<img src="https://github.com/user-attachments/assets/ef823c6b-6916-42f6-99c7-37a0c38e5845" alt="회원등록 페이지 이미지">
 <H3>검사결과입력 페이지</H3>
-<img src="https://github.com/user-attachments/assets/eb2fe0ee-be56-4e9b-83e0-a50c51d39a0f" alt="유효성 검사 이미지">
+<img src="https://github.com/user-attachments/assets/50ecaac4-cd6f-4c56-9e84-ac39c6e72044" alt="유효성 검사 이미지">
 <H3>유호성 검사</H3>
-<img src="https://github.com/user-attachments/assets/039aeb84-5566-473d-ab63-6dbf93053613" alt="유효성 검사 이미지">
+<img src="https://github.com/user-attachments/assets/137a76c8-0956-416b-9350-01c63833ab2c" alt="유효성 검사 이미지">
 <H3>검사결과조회 페이지</H3>
-<img src="https://github.com/user-attachments/assets/c8bfbaef-e4c8-4440-a388-b122a776eb6b" alt="유효성 검사 이미지">
+<img src="https://github.com/user-attachments/assets/75c15e10-607b-4b40-9a04-ac1412ef35d5" alt="유효성 검사 이미지">
 <H3>지역별 검사건수통계 페이지</H3>
-<img src="https://github.com/user-attachments/assets/61800f57-1a0d-44c1-b12a-395f3bc4a51a" alt="회원 매출 조회 이미지">
+<img src="https://github.com/user-attachments/assets/538c9d5e-c44b-4ddd-ace8-c9420d28d16b" alt="회원 매출 조회 이미지">
 </details>
 
 <hr>
@@ -36,13 +36,16 @@
 </details>
 <hr>
 <details><summary><H2>환자조회.jsp (환자조회 페이지)</H2></summary>
-<img src="https://github.com/user-attachments/assets/6044200d-8193-44ea-8893-ec5e5c46461d" alt="유효성 검사 이미지">
-<img src="https://github.com/user-attachments/assets/b6076fe1-6861-4567-99cb-2db7b974173c" alt="유효성 검사 이미지">
+
+<img src="https://github.com/user-attachments/assets/93328fcd-48d0-4737-bbff-f6e1dc1fe489" alt="유효성 검사 이미지">
 <ul>
- <li>join.jsp에서 입력받은 값을 DB에 전달하는 코드</li> 
- <li>한글로 전송하기 위해 인코딩을 UTF-8로 바꿔준다.</li>
- <li>그 후 member_list.jsp로 이동시켜 준다.</li>
+ <li>환자번호, 환자성명, 생년월일, 성별, 전화번호, 지역을 보여주는 코드</li> 
+ <li>substr, 연결 연산자를 사용하여 생년월일과 전화번호를 보여주고 case문 사용하여 지역을 보여준다 </li>
 </ul> 
+<img src="https://github.com/user-attachments/assets/2fe134ce-3cf6-44f5-9ee2-bdc7cda232a6" alt="유효성 검사 이미지">
+<ul>
+ <li>모든 환자를 출력할 때 까지 반복함.</li>
+</ul>
 </details>
 <hr>
 <details><summary><H2>검사결과입력.jsp (검사결과입력 페이지)</H2></summary>
