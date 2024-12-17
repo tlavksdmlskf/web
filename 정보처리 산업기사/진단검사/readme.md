@@ -5,15 +5,15 @@
 <H3>메인 페이지</H3>
 <img src="https://github.com/user-attachments/assets/cf86431a-dcfa-4175-a75a-616e9b8e77a4" alt="메인 페이지 이미지">
 <details><summary><H2>완성본 사진</H2></summary>
-<H3>후보조회 페이지</H3>
+<H3>환자조회 페이지</H3>
 <img src="https://github.com/user-attachments/assets/d076f429-1422-4e41-9f29-446af02fdc89" alt="회원등록 페이지 이미지">
-<H3>투표 페이지</H3>
+<H3>검사결과입력 페이지</H3>
 <img src="https://github.com/user-attachments/assets/eb2fe0ee-be56-4e9b-83e0-a50c51d39a0f" alt="유효성 검사 이미지">
 <H3>유호성 검사</H3>
 <img src="https://github.com/user-attachments/assets/039aeb84-5566-473d-ab63-6dbf93053613" alt="유효성 검사 이미지">
-<H3>후보 검수 조회 페이지</H3>
+<H3>검사결과조회 페이지</H3>
 <img src="https://github.com/user-attachments/assets/c8bfbaef-e4c8-4440-a388-b122a776eb6b" alt="유효성 검사 이미지">
-<H3>후보자 등수 페이지</H3>
+<H3>지역별 검사건수통계 페이지</H3>
 <img src="https://github.com/user-attachments/assets/61800f57-1a0d-44c1-b12a-395f3bc4a51a" alt="회원 매출 조회 이미지">
 </details>
 
@@ -46,7 +46,7 @@
 
 
 <hr>
-<details><summary><H2>vote.jsp (투표 페이지)</H2></summary>
+<details><summary><H2>환자조회.jsp (환자조회 페이지)</H2></summary>
 <img src="https://github.com/user-attachments/assets/6044200d-8193-44ea-8893-ec5e5c46461d" alt="유효성 검사 이미지">
 <img src="https://github.com/user-attachments/assets/b6076fe1-6861-4567-99cb-2db7b974173c" alt="유효성 검사 이미지">
 <ul>
@@ -55,7 +55,7 @@
  <li>그 후 member_list.jsp로 이동시켜 준다.</li>
 </ul> 
 </details>
-<details><summary><H2>vote_p.jsp (투표 페이지)</H2></summary>
+<details><summary><H2>검사결과입력.jsp (검사결과입력 페이지)</H2></summary>
 <img src="https://github.com/user-attachments/assets/ff747af1-38ed-4794-8d8f-90285dae998a" alt="유효성 검사 이미지">
 <ul>
  <li>join.jsp에서 입력받은 값을 DB에 전달하는 코드</li> 
@@ -65,7 +65,7 @@
 </details>
 <hr>
 
-<details><summary><H2>member_list.jsp (후보검수조회 페이지)</H2></summary>
+<details><summary><H2>검사결과입력_p.jsp (검사결과입력 페이지)</H2></summary>
 <img src="https://github.com/user-attachments/assets/248a0a4b-77a7-42ad-aa56-29494557dba3" alt="유효성 검사 이미지">
 <img src="https://github.com/user-attachments/assets/9c9cf1bb-740f-46bc-829a-4f6279fe33b8" alt="유효성 검사 이미지">
 <ul>
@@ -75,7 +75,7 @@
 
 </details>
 <hr>
-<details><summary><H2>vote_rank.jsp (후보자 등수 페이지)</summary>
+<details><summary><H2>검사결과조회.jsp (검사결과조회 페이지)</summary>
 <img src="https://github.com/user-attachments/assets/c90debc6-e5bb-4269-8fc4-bae03103152f" alt="유효성 검사 이미지">
 
 <ul>
@@ -93,6 +93,15 @@
 </ul>
 </details>
 
+<details><summary><H2>지역별검사건수.jsp (지역별 검사건수 페이지)</H2></summary>
+<img src="https://github.com/user-attachments/assets/248a0a4b-77a7-42ad-aa56-29494557dba3" alt="유효성 검사 이미지">
+<img src="https://github.com/user-attachments/assets/9c9cf1bb-740f-46bc-829a-4f6279fe33b8" alt="유효성 검사 이미지">
+<ul>
+ <li>회원의 정보를 가져오는 코드</li> 
+ <li>Case문을 활용하여 회원의 등급을 표시하였다</li>
+</ul>
+
+</details>
 
 
 
