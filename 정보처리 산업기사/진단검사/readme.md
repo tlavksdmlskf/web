@@ -11,6 +11,8 @@
 <img src="https://github.com/user-attachments/assets/50ecaac4-cd6f-4c56-9e84-ac39c6e72044" alt="유효성 검사 이미지">
 <H3>유호성 검사</H3>
 <img src="https://github.com/user-attachments/assets/137a76c8-0956-416b-9350-01c63833ab2c" alt="유효성 검사 이미지">
+<H3>다시쓰기를 눌렀을 경우</H3>
+<img src="https://github.com/user-attachments/assets/df01d13a-eb1b-46c8-aec2-94b556fdbcb1" alt="유효성 검사 이미지">
 <H3>검사결과조회 페이지</H3>
 <img src="https://github.com/user-attachments/assets/75c15e10-607b-4b40-9a04-ac1412ef35d5" alt="유효성 검사 이미지">
 <H3>지역별 검사건수통계 페이지</H3>
@@ -40,7 +42,7 @@
 <img src="https://github.com/user-attachments/assets/93328fcd-48d0-4737-bbff-f6e1dc1fe489" alt="유효성 검사 이미지">
 <ul>
  <li>환자번호, 환자성명, 생년월일, 성별, 전화번호, 지역을 보여주는 코드</li> 
- <li>substr, 연결 연산자를 사용하여 생년월일과 전화번호를 보여주고 case문 사용하여 지역을 보여준다 </li>
+ <li>substr, 연결 연산자를 사용하여 생년월일과 전화번호를 보여주고 case문 사용하여 지역을 보여준다. </li>
 </ul> 
 <img src="https://github.com/user-attachments/assets/2fe134ce-3cf6-44f5-9ee2-bdc7cda232a6" alt="유효성 검사 이미지">
 <ul>
@@ -49,49 +51,50 @@
 </details>
 <hr>
 <details><summary><H2>검사결과입력.jsp (검사결과입력 페이지)</H2></summary>
-<img src="https://github.com/user-attachments/assets/ff747af1-38ed-4794-8d8f-90285dae998a" alt="유효성 검사 이미지">
+<img src="https://github.com/user-attachments/assets/1fe20730-55fe-4d0e-b943-7b77a51fee29" alt="유효성 검사 이미지">
 <ul>
- <li>join.jsp에서 입력받은 값을 DB에 전달하는 코드</li> 
- <li>한글로 전송하기 위해 인코딩을 UTF-8로 바꿔준다.</li>
- <li>그 후 member_list.jsp로 이동시켜 준다.</li>
+ <li>환자번호, 검사코드, 검사시작일, 검사상태, 검사완료일, 검사결과를 입력받는 코드</li>
+ <li>select와 option으로 드롭다운을 구현하였다.</li> 
+</ul> 
+<img src="https://github.com/user-attachments/assets/c1188deb-2b03-4aca-bae3-43885fa29c34" alt="유효성 검사 이미지">
+<ul>
+ <li>값이 없는 지 확인하는 유효성 검사 코드</li>
+ <li>입력창에 값이 없을 경우, 알림 후 값이 비어있는 입력창으로 이동한다</li> 
+</ul> 
+<img src="https://github.com/user-attachments/assets/8fffd813-f0fc-4ac3-871e-78e321e5d324" alt="유효성 검사 이미지">
+<ul>
+ <li>다시쓰기를 누를 경우, 알림 후 입력값을 초기화 시켜주는 코드</li>
+ <li>초기화 후, 환자번호에서부터 입력할 수 있도록 이동시켜 준다.</li> 
 </ul> 
 </details>
 
-
 <details><summary><H2>검사결과입력_p.jsp (검사결과입력 페이지)</H2></summary>
-<img src="https://github.com/user-attachments/assets/248a0a4b-77a7-42ad-aa56-29494557dba3" alt="유효성 검사 이미지">
-<img src="https://github.com/user-attachments/assets/9c9cf1bb-740f-46bc-829a-4f6279fe33b8" alt="유효성 검사 이미지">
+<img src="https://github.com/user-attachments/assets/1cb4824b-ff62-457b-b7a1-2b1a2c4066f9" alt="유효성 검사 이미지">
 <ul>
- <li>회원의 정보를 가져오는 코드</li> 
- <li>Case문을 활용하여 회원의 등급을 표시하였다</li>
+ <li>입력받은 값들을 데이터베이스에 저장하는 코드</li> 
+ <li>한글이 깨지지 않도록 인코딩을 utf-8로 변경하였다.<br> 그 후, 초기 화면으로 돌아간다</li>
 </ul>
 
 </details>
 <hr>
 <details><summary><H2>검사결과조회.jsp (검사결과조회 페이지)</summary>
-<img src="https://github.com/user-attachments/assets/c90debc6-e5bb-4269-8fc4-bae03103152f" alt="유효성 검사 이미지">
-
+<img src="https://github.com/user-attachments/assets/dd01183e-6c96-45b9-8073-89e0a3b7de71" alt="유효성 검사 이미지">
+<img src="https://github.com/user-attachments/assets/d46be0bd-3450-4d93-b824-810cb9671796" alt="유효성 검사 이미지">
 <ul>
- <li> 매출이 있는 회원 각각의 매출을 보여주는 코드</li> 
- <li>Case문을 활용하여 회원의 등급을 표시하였다</li>
- <li>member_tbl_02 테이블과 money_tbl_02 테이블을 조인하여 매출을 가져왔다</li> 
- <li>총액을 구하기 위해서 변수를 선언했다</li>
- <li>click_custno를 통하여 클릭한 회원번호를 update.jsp에 전송해준다</li>
+ <li>환자번호, 환자명, 검사일, 검사시작일, 검사상태, 검사종료일, 검사결과를 보여주는 코드</li> 
+ <li>to_char로 날짜 사이에 'yyyy-mm-dd'로 나오게 만들었다.</li>
+ <li>case문을 활용하여 검사일과 검사결과를 각각에 맞는 조건에 따라 다르게 나오도록 만들었다.</li> 
 </ul>
 <hr>
-<img src="https://github.com/user-attachments/assets/a2c4e09f-62c9-4766-a7b4-4ac06863537c" alt="유효성 검사 이미지">
-  <ul>
- <li>회원의 정보와 매출, 총액을 출력해주는 코드</li> 
- <li>아까 선언해준 변수에 매출을 더해주는 방식으로 총액을 구해준다</li>
-</ul>
 </details>
 <hr>
 <details><summary><H2>지역별검사건수.jsp (지역별 검사건수 페이지)</H2></summary>
-<img src="https://github.com/user-attachments/assets/248a0a4b-77a7-42ad-aa56-29494557dba3" alt="유효성 검사 이미지">
-<img src="https://github.com/user-attachments/assets/9c9cf1bb-740f-46bc-829a-4f6279fe33b8" alt="유효성 검사 이미지">
+<img src="https://github.com/user-attachments/assets/ab83770e-25f5-414b-8eb1-703ccb3afe74" alt="유효성 검사 이미지">
+<img src="https://github.com/user-attachments/assets/644ea28a-7003-4582-a140-3d2413376a1f" alt="유효성 검사 이미지">
+
 <ul>
- <li>회원의 정보를 가져오는 코드</li> 
- <li>Case문을 활용하여 회원의 등급을 표시하였다</li>
+ <li>지역별 검사건수를 보여주는 코드</li> 
+ <li>group by로 도시를 묶은 다음 count로 건수를 세 지역코드 순으로 보여준다.</li>
 </ul>
 
 </details>
